@@ -2,7 +2,7 @@
 
 ![docker-collection-banner-image](docker_collection.png)
 
-Collection of Dockerfiles for existing projects/papers I tested — useful as a starting point for your own project. Adapt the Dockerfiles and running scripts to your needs.
+Collection of Dockerfiles for existing projects/papers I tested — useful as a starting point for your own experiments. Adapt the Dockerfiles and running scripts to your needs.
 
 # General instructions
 
