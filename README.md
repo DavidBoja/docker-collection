@@ -4,7 +4,9 @@
 
 Collection of Dockerfiles for existing projects/papers I tested — useful as a starting point for your own experiments. Adapt the Dockerfiles and running scripts to your needs.
 
-# General instructions
+<br>
+
+# Instructions
 
 Each project/paper implementation consists of 3 files:
 - Dockerfile
@@ -20,21 +22,27 @@ sh run.sh CODE-PATH DATA-PATH
 ```
 where `CODE-PATH` is the path to the code from the original GitHub repository, and `DATA-PATH` is the path to the datasets location you want to use in the docker container.
 
+<br>
 
-# IMPLEMENTATIONS
+# Implementations
+
+The implmemented projects/papers are listed in the table below. The files for a selected project are located in `dockers/<Location>`, where `<Location>` is listed in the table.
 
 
 | Reference | Paper                                                       | Topic | Link                                         | GitHub                                             | Location     |
 |-----------|-------------------------------------------------------------|-------|----------------------------------------------|----------------------------------------------------|--------------|
-| 1         | iNeRF: Inverting Neural Radiance Fields for Pose Estimation | NERFs | [link](https://arxiv.org/pdf/2012.05877.pdf) | [repo](https://github.com/yenchenlin/iNeRF-public) | iNeRF-public |
+| [1]         | iNeRF: Inverting Neural Radiance Fields for Pose Estimation | NERFs | [link](https://arxiv.org/pdf/2012.05877.pdf) | [repo](https://github.com/yenchenlin/iNeRF-public) | iNeRF-public |
 |           |                                                             |       |                                              |                                                    |              |
 |           |                                                             |       |                                              |                                                    |              |
 |           |                                                             |       |                                              |                                                    |              
+<br>
 
-# TODO
+# ToDo
 - [ ] Add GeDi docker
 - [ ] Add GeoTransformer docker
 - [ ] Add SC2-PCR docker
 
-# FULL PAPER REFERENCES
+<br>
+
+# References
 [1] Yen-Chen et al.: iNeRF: Inverting Neural Radiance Fields for Pose Estimation, IROS 2021
