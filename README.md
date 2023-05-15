@@ -13,6 +13,8 @@ Each project/paper implementation consists of 3 files:
 - build.sh
 - run.sh
 
+and optional additional files (such as python requirements.txt or conda environemnts.yml files). 
+
 The idea is to build the docker image from the Dockerfile using `build.sh` and run the docker container using `run.sh`. For a project `SELECTED-PROJECT` run the following:
 
 ```
