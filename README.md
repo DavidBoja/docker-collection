@@ -12,17 +12,18 @@ Each project/paper implementation consists of 3 files:
 - Dockerfile
 - build.sh
 - run.sh
+- README
 
-and optional additional files (such as python requirements.txt or conda environemnts.yml files). 
+and optional additional files (such as python requirements.txt, conda environemnts.yml, etc.). 
 
 The idea is to build the docker image from the Dockerfile using `build.sh` and run the docker container using `run.sh`. For a project `SELECTED-PROJECT` run the following:
 
 ```
-cd SELECTED-PROJECT
+cd dockers/SELECTED-PROJECT
 sh build.sh
 sh run.sh CODE-PATH DATA-PATH
 ```
-where `CODE-PATH` is the path to the code from the original GitHub repository, and `DATA-PATH` is the path to the datasets location you want to use in the docker container.
+where `CODE-PATH` is the path to the code from the original GitHub repository, and `DATA-PATH` is the <ins>optional</ins> path to the datasets location you want to use in the docker container.
 
 <br>
 
@@ -34,17 +35,20 @@ The implmemented projects/papers are listed in the table below. The files for a 
 | Reference | Paper                                                       | Topic | Link                                         | GitHub                                             | Location     |
 |-----------|-------------------------------------------------------------|-------|----------------------------------------------|----------------------------------------------------|--------------|
 | [1]         | iNeRF: Inverting Neural Radiance Fields for Pose Estimation | NERFs | [link](https://arxiv.org/pdf/2012.05877.pdf) | [repo](https://github.com/yenchenlin/iNeRF-public) | iNeRF-public |
-|           |                                                             |       |                                              |                                                    |              |
+|  [2]         | SC^2-PCR: A Second Order Spatial Compatibility for Efficient and Robust Point Cloud Registration | 3D Registration | [link](https://openaccess.thecvf.com/content/CVPR2022/papers/Chen_SC2-PCR_A_Second_Order_Spatial_Compatibility_for_Efficient_and_Robust_CVPR_2022_paper.pdf) | [repo](https://github.com/ZhiChen902/SC2-PCR) | SC2-PCR             |
 |           |                                                             |       |                                              |                                                    |              |
 |           |                                                             |       |                                              |                                                    |              
 <br>
 
 # ToDo
 - [ ] Add GeDi docker
+- [ ] Add SpinNet docker
 - [ ] Add GeoTransformer docker
-- [ ] Add SC2-PCR docker
+- [x] Add SC2-PCR docker
+- [ ] Add 4D-Humans docker
 
 <br>
 
 # References
-[1] Yen-Chen et al.: iNeRF: Inverting Neural Radiance Fields for Pose Estimation, IROS 2021
+[1] Yen-Chen et al.: iNeRF: Inverting Neural Radiance Fields for Pose Estimation, IROS 2021 <br>
+[2] Chen et al.: SC^2-PCR: A Second Order Spatial Compatibility for Efficient and Robust Point Cloud Registration, CVPR 2022
