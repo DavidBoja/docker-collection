@@ -11,9 +11,9 @@ CODE_DIR_PATH=$1
 if [ -z "$2" ]
   then
     # run docker image without data path mounting
-    docker run --gpus all --name sc2-pcr-container -t -v $CODE_DIR_PATH/:/SC2-PCR sc2-pcr
+    docker run --gpus all --shm-size=8gb --name sc2-pcr-container -t -v $CODE_DIR_PATH/:/SC2-PCR sc2-pcr
     exit 1
 fi
 
 DATA_DIR_PATH=$2
-docker run --gpus all --name sc2-pcr-container -t -v $CODE_DIR_PATH/:/SC2-PCR -v $DATA_DIR_PATH/:/data sc2-pcr
+docker run --gpus all --shm-size=8gb --name sc2-pcr-container -t -v $CODE_DIR_PATH/:/SC2-PCR -v $DATA_DIR_PATH/:/data sc2-pcr
