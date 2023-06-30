@@ -11,9 +11,9 @@ CODE_DIR_PATH=$1
 if [ -z "$2" ]
   then
     # run docker image without data path mounting
-    docker run --gpus all --name inerf-container -t -v $CODE_DIR_PATH/:/iNeRF-public inerf
+    docker run --gpus all --shm-size=8gb --name inerf-container -t -v $CODE_DIR_PATH/:/iNeRF-public inerf
     exit 1
 fi
 
 DATA_DIR_PATH=$2
-docker run --gpus all --name inerf-container -t -v $CODE_DIR_PATH/:/iNeRF-public -v $DATA_DIR_PATH/:/data inerf
+docker run --gpus all --shm-size=8gb --name inerf-container -t -v $CODE_DIR_PATH/:/iNeRF-public -v $DATA_DIR_PATH/:/data inerf
