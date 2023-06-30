@@ -35,8 +35,8 @@ The implmemented projects/papers are listed in the table below. The files for a 
 | Reference | Paper                                                       | Topic | Link                                         | GitHub                                             | Location     |
 |-----------|-------------------------------------------------------------|-------|----------------------------------------------|----------------------------------------------------|--------------|
 | [1]         | iNeRF: Inverting Neural Radiance Fields for Pose Estimation | NERFs | [link](https://arxiv.org/pdf/2012.05877.pdf) | [repo](https://github.com/yenchenlin/iNeRF-public) | iNeRF-public |
-|  [2]         | SC^2-PCR: A Second Order Spatial Compatibility for Efficient and Robust Point Cloud Registration | 3D Registration | [link](https://openaccess.thecvf.com/content/CVPR2022/papers/Chen_SC2-PCR_A_Second_Order_Spatial_Compatibility_for_Efficient_and_Robust_CVPR_2022_paper.pdf) | [repo](https://github.com/ZhiChen902/SC2-PCR) | SC2-PCR             |
-|           |                                                             |       |                                              |                                                    |              |
+| [2]         | SC^2-PCR: A Second Order Spatial Compatibility for Efficient and Robust Point Cloud Registration | 3D Registration | [link](https://openaccess.thecvf.com/content/CVPR2022/papers/Chen_SC2-PCR_A_Second_Order_Spatial_Compatibility_for_Efficient_and_Robust_CVPR_2022_paper.pdf) | [repo](https://github.com/ZhiChen902/SC2-PCR) | SC2-PCR             |
+| [3]         | Humans in 4D: Reconstructing and Tracking Humans with Transformers                                                   |  SMPL fitting     | [link](https://arxiv.org/pdf/2305.20091.pdf) |   [repo](https://github.com/shubham-goel/4D-Humans)  | 4D-Humans
 |           |                                                             |       |                                              |                                                    |              
 <br>
 
@@ -44,11 +44,14 @@ The implmemented projects/papers are listed in the table below. The files for a 
 - [ ] Add GeDi docker
 - [ ] Add SpinNet docker
 - [ ] Add GeoTransformer docker
+- [ ] Add PointDSC docker
+- [ ] Add YOHO docker
 - [x] Add SC2-PCR docker
-- [ ] Add 4D-Humans docker
+- [x] Add 4D-Humans docker
 
 <br>
 
 # References
 [1] Yen-Chen et al.: iNeRF: Inverting Neural Radiance Fields for Pose Estimation, IROS 2021 <br>
 [2] Chen et al.: SC^2-PCR: A Second Order Spatial Compatibility for Efficient and Robust Point Cloud Registration, CVPR 2022
+[3] Goel et al.: Humans in 4D: Reconstructing and Tracking Humans with Transformers, arXiv preprint
