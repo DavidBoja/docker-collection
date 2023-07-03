@@ -41,13 +41,23 @@ The implmemented projects/papers are listed in the table below. The files for a 
 <br>
 
 # ToDo
-- [ ] Add GeDi docker
-- [ ] Add SpinNet docker
-- [ ] Add GeoTransformer docker
-- [ ] Add PointDSC docker
-- [ ] Add YOHO docker
-- [x] Add SC2-PCR docker
-- [x] Add 4D-Humans docker
+- [ ] Add GeDi [4] docker
+- [ ] Add SpinNet [5] docker
+- [ ] Add GeoTransformer [6] docker
+- [ ] Add PointDSC [7] docker
+- [ ] Add YOHO [8] docker
+- [ ] Add RegTR [9] docker
+- [ ] Add DIP [10] docker
+- [ ] Add LVD [11] docker
+- [ ] Add HierProb3D [12] docker
+- [ ] Add VoteHMR [13] docker
+- [ ] Add Unsupervised3DHuman [14] docker
+- [ ] Add 3D-CODED [15] docker
+- [ ] Add ALIKE [16] docker
+- [ ] Add CAPE [17] docker
+- [ ] Add SMPLR [18] docker
+- [x] Add SC2-PCR [2] docker
+- [x] Add 4D-Humans [3] docker
 
 <br>
 
@@ -55,3 +65,18 @@ The implmemented projects/papers are listed in the table below. The files for a 
 [1] Yen-Chen et al.: iNeRF: Inverting Neural Radiance Fields for Pose Estimation, IROS 2021 <br>
 [2] Chen et al.: SC^2-PCR: A Second Order Spatial Compatibility for Efficient and Robust Point Cloud Registration, CVPR 2022 <br>
 [3] Goel et al.: Humans in 4D: Reconstructing and Tracking Humans with Transformers, arXiv preprint
+[4] Poiesi et al.: Learning general and distinctive 3D local deep descriptors for point cloud registration, PAMI 2022 <br>
+[5] Sheng et al.: SpinNet: Learning a General Surface Descriptor for 3D Point Cloud Registration, CVPR 2021 <br>
+[6] Qin et al: Geometric Transformer for Fast and Robust Point Cloud Registration, CVPR 2022 <br>
+[7] Bai et al: PointDSC: Robust Point Cloud Registration using Deep Spatial Consistency, CVPR 2021 <br>
+[8] Wang et al: You only hypothesize once: Point cloud registration with rotation-equivariant descriptors, ACM MM 2022 <br>
+[9] Yew et al: REGTR: End-to-end Point Cloud Correspondences with Transformers, CVPR 2022 <br>
+[10] Poiesi et al.: Distinctive {3D} local deep descriptors, ICPR 2021 <br>
+[11] Corona et al: Learned Vertex Descent: A New Direction for 3D Human Model Fitting, ECCV 2022 <br>
+[12] Sengupta et al.: Hierarchical Kinematic Probability Distributions for 3D Human Shape and Pose Estimation from Images in the Wild, ICCV 2021 <br>
+[13] Liu et al.: VoteHMR: Occlusion-Aware Voting Network for Robust 3D Human Mesh Recovery from Partial Point Clouds, ACM MM 2021 <br>
+[14] Zuo et al.: Self-supervised 3D Human Mesh Recovery from Noisy Point Clouds, arxiv preprint <br>
+[15] Groueix et al.: 3D-CODED : 3D Correspondences by Deep Deformation, ECCV 2018 <br>
+[16] Zhao et al.: ALIKE: Accurate and Lightweight Keypoint Detection and Descriptor Extraction, ToM 2022 <br>
+[17] Ma et al.: Learning to Dress 3D People in Generative Clothing, CVPR 2020 <br>
+[18] Madadi et al.: SMPLR: Deep learning based SMPL reverse for 3D human pose and shape recovery, Pattern Recognition 2020 <br>
