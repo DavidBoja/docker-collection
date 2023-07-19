@@ -16,14 +16,14 @@ Each project/paper implementation consists of 3 files:
 
 and optional additional files (such as python requirements.txt, conda environemnts.yml, etc.). 
 
-The idea is to build the docker image from the Dockerfile using `build.sh` and run the docker container using `run.sh`. For a project `SELECTED-PROJECT` run the following:
+The idea is to build the docker image from the `Dockerfile` using `build.sh` and run the docker container using `run.sh`. For a project `<SELECTED-PROJECT>` run the following:
 
 ```
-cd dockers/SELECTED-PROJECT
+cd dockers/<SELECTED-PROJECT>
 sh build.sh
 sh run.sh CODE-PATH DATA-PATH
 ```
-where `CODE-PATH` is the path to the code from the original GitHub repository, and `DATA-PATH` is the <ins>optional</ins> path to the datasets location you want to use in the docker container.
+where `CODE-PATH` is the path to the code from the original GitHub repository, and `DATA-PATH` is the <ins>optional</ins> path to the datasets location you want to use in the docker container. For more instructions read the `dockers/<SELECTED-PROJECT>/README_<SELECTED-PROJECT>.md`.
 
 <br>
 
@@ -34,10 +34,10 @@ The implmemented projects/papers are listed in the table below. The files for a 
 
 | Reference | Paper                                                       | Topic | Link                                         | GitHub                                             | Location     |
 |-----------|-------------------------------------------------------------|-------|----------------------------------------------|----------------------------------------------------|--------------|
-| [1]         | iNeRF: Inverting Neural Radiance Fields for Pose Estimation | NERFs | [link](https://arxiv.org/pdf/2012.05877.pdf) | [repo](https://github.com/yenchenlin/iNeRF-public) | iNeRF-public |
-| [2]         | SC^2-PCR: A Second Order Spatial Compatibility for Efficient and Robust Point Cloud Registration | 3D Registration | [link](https://openaccess.thecvf.com/content/CVPR2022/papers/Chen_SC2-PCR_A_Second_Order_Spatial_Compatibility_for_Efficient_and_Robust_CVPR_2022_paper.pdf) | [repo](https://github.com/ZhiChen902/SC2-PCR) | SC2-PCR             |
-| [3]         | Humans in 4D: Reconstructing and Tracking Humans with Transformers                                                   |  SMPL fitting     | [link](https://arxiv.org/pdf/2305.20091.pdf) |   [repo](https://github.com/shubham-goel/4D-Humans)  | 4D-Humans
-|           |                                                             |       |                                              |                                                    |              
+| [1]       | iNeRF: Inverting Neural Radiance Fields for Pose Estimation | NERFs | [link](https://arxiv.org/pdf/2012.05877.pdf) | [repo](https://github.com/yenchenlin/iNeRF-public) | iNeRF-public |
+| [2]       | SC^2-PCR: A Second Order Spatial Compatibility for Efficient and Robust Point Cloud Registration | 3D Registration | [link](https://openaccess.thecvf.com/content/CVPR2022/papers/Chen_SC2-PCR_A_Second_Order_Spatial_Compatibility_for_Efficient_and_Robust_CVPR_2022_paper.pdf) | [repo](https://github.com/ZhiChen902/SC2-PCR) | SC2-PCR             |
+| [3]       | Humans in 4D: Reconstructing and Tracking Humans with Transformers |  SMPL fitting | [link](https://arxiv.org/pdf/2305.20091.pdf) | [repo](https://github.com/shubham-goel/4D-Humans)  | 4D-Humans
+| [19]      | Self-Calibrating Neural Radiance Fields | NERFs | [link](https://arxiv.org/pdf/2108.13826.pdf) | [repo](https://github.com/POSTECH-CVLab/SCNeRF) | SCNeRF |
 <br>
 
 # ToDo
@@ -58,6 +58,7 @@ The implmemented projects/papers are listed in the table below. The files for a 
 - [ ] Add SMPLR [18] docker
 - [x] Add SC2-PCR [2] docker
 - [x] Add 4D-Humans [3] docker
+- [x] Add SCNeRF [19] docker
 
 <br>
 
@@ -80,3 +81,4 @@ The implmemented projects/papers are listed in the table below. The files for a 
 [16] Zhao et al.: ALIKE: Accurate and Lightweight Keypoint Detection and Descriptor Extraction, ToM 2022 <br>
 [17] Ma et al.: Learning to Dress 3D People in Generative Clothing, CVPR 2020 <br>
 [18] Madadi et al.: SMPLR: Deep learning based SMPL reverse for 3D human pose and shape recovery, Pattern Recognition 2020 <br>
+[19] Jeong et al.: Self-Calibrating Neural Radiance Fields, ICCV 2021 <br>
