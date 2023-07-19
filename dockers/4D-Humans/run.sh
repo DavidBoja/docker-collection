@@ -11,9 +11,9 @@ CODE_DIR_PATH=$1
 if [ -z "$2" ]
   then
     # run docker image without data path mounting
-    docker run --gpus all --shm-size=8gb --name four-d-humans-container -t -v $CODE_DIR_PATH/:/4D-Humans four-d-humans
+    docker run --gpus all --detach --shm-size=8gb --name four-d-humans-container -t -v $CODE_DIR_PATH/:/4D-Humans four-d-humans
     exit 1
 fi
 
 DATA_DIR_PATH=$2
-docker run --gpus all --shm-size=8gb --name four-d-humans-container -t -v $CODE_DIR_PATH/:/4D-Humans -v $DATA_DIR_PATH/:/data four-d-humans
+docker run --gpus all --detach --shm-size=8gb --name four-d-humans-container -t -v $CODE_DIR_PATH/:/4D-Humans -v $DATA_DIR_PATH/:/data four-d-humans
