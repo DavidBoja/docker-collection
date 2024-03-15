@@ -38,13 +38,13 @@ The implmemented projects/papers are listed in the table below. The files for a 
 | [2]       | SC^2-PCR: A Second Order Spatial Compatibility for Efficient and Robust Point Cloud Registration | 3D Registration | [link](https://openaccess.thecvf.com/content/CVPR2022/papers/Chen_SC2-PCR_A_Second_Order_Spatial_Compatibility_for_Efficient_and_Robust_CVPR_2022_paper.pdf) | [repo](https://github.com/ZhiChen902/SC2-PCR) | SC2-PCR             |
 | [3]       | Humans in 4D: Reconstructing and Tracking Humans with Transformers |  SMPL fitting | [link](https://arxiv.org/pdf/2305.20091.pdf) | [repo](https://github.com/shubham-goel/4D-Humans)  | 4D-Humans
 | [5]      | SpinNet: Learning a General Surface Descriptor for 3D Point Cloud Registration | 3D Registration | [link](https://arxiv.org/pdf/2011.12149.pdf) | [repo](https://github.com/QingyongHu/SpinNet/tree/main) | SpinNet |
+| [6]      | Geometric Transformer for Fast and Robust Point Cloud Registration | 3D Registration | [link](https://arxiv.org/pdf/2202.06688.pdf) | [repo](https://github.com/qinzheng93/GeoTransformer) | GeoTransformer |
 | [17]      | Learning to Dress 3D People in Generative Clothing | SMPL clothing | [link](https://openaccess.thecvf.com/content_CVPR_2020/papers/Ma_Learning_to_Dress_3D_People_in_Generative_Clothing_CVPR_2020_paper.pdf) | [repo](https://github.com/qianlim/CAPE) | CAPE |
 | [19]      | Self-Calibrating Neural Radiance Fields | NERFs | [link](https://arxiv.org/pdf/2108.13826.pdf) | [repo](https://github.com/POSTECH-CVLab/SCNeRF) | SCNeRF |
 <br>
 
 # ToDo
 - [ ] Add GeDi [4] docker
-- [ ] Add GeoTransformer [6] docker
 - [ ] Add PointDSC [7] docker
 - [ ] Add YOHO [8] docker
 - [ ] Add RegTR [9] docker
@@ -59,6 +59,7 @@ The implmemented projects/papers are listed in the table below. The files for a 
 - [x] Add SC2-PCR [2] docker
 - [x] Add 4D-Humans [3] docker
 - [x] Add SpinNet [5] docker
+- [x] Add GeoTransformer [6] docker
 - [x] Add CAPE [17] docker
 - [x] Add SCNeRF [19] docker
 
