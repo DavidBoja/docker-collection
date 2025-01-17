@@ -41,6 +41,7 @@ The implmemented projects/papers are listed in the table below. The files for a 
 | [6]      | Geometric Transformer for Fast and Robust Point Cloud Registration | 3D Registration | [link](https://arxiv.org/pdf/2202.06688.pdf) | [repo](https://github.com/qinzheng93/GeoTransformer) | GeoTransformer |
 | [17]      | Learning to Dress 3D People in Generative Clothing | SMPL clothing | [link](https://openaccess.thecvf.com/content_CVPR_2020/papers/Ma_Learning_to_Dress_3D_People_in_Generative_Clothing_CVPR_2020_paper.pdf) | [repo](https://github.com/qianlim/CAPE) | CAPE |
 | [19]      | Self-Calibrating Neural Radiance Fields | NERFs | [link](https://arxiv.org/pdf/2108.13826.pdf) | [repo](https://github.com/POSTECH-CVLab/SCNeRF) | SCNeRF |
+| [20]      | MVSplat: Efficient 3D Gaussian Splatting from Sparse Multi-View Images | Gaussian Splatting | [link](https://arxiv.org/pdf/2403.14627) | [repo](https://github.com/donydchen/mvsplat) | mvsplat | 
 <br>
 
 # ToDo
@@ -62,6 +63,7 @@ The implmemented projects/papers are listed in the table below. The files for a 
 - [x] Add GeoTransformer [6] docker
 - [x] Add CAPE [17] docker
 - [x] Add SCNeRF [19] docker
+- [x] Add mvsplat [20] docker
 
 <br>
 
@@ -85,3 +87,4 @@ The implmemented projects/papers are listed in the table below. The files for a 
 [17] Ma et al.: Learning to Dress 3D People in Generative Clothing, CVPR 2020 <br>
 [18] Madadi et al.: SMPLR: Deep learning based SMPL reverse for 3D human pose and shape recovery, Pattern Recognition 2020 <br>
 [19] Jeong et al.: Self-Calibrating Neural Radiance Fields, ICCV 2021 <br>
+[20] Chen et al.: MVSplat: Efficient 3D Gaussian Splatting from Sparse Multi-View Images, ECCV 2024 <br>
